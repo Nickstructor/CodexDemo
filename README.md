@@ -12,7 +12,7 @@ javac -d out @sources.txt
 java -cp out AllTests
 java -cp out Main
 ```
-Expected test result: PASS: 25 checks. New Java files must be listed in sources.txt and new test suites called from AllTests. Explicit assertions do not require -ea.
+Expected test result: PASS: 35 checks. New Java files must be listed in sources.txt and new test suites called from AllTests. Explicit assertions do not require -ea.
 
 ## Menu
 1 Students, 2 Sections, 3 Register, 4 Drop, 5 Schedule, 0 Exit. Repositories use ArrayList collections. Changes exist for the current run only. Restart Main to reset the sample data.

@@ -4,6 +4,7 @@ public class AllTests {
         ScheduleServiceTest.run();
         RepositoryTest.run();
         SampleDataTest.run();
+        ConsoleMenuTest.run();
         System.out.println("PASS: " + TestSupport.count() + " checks");
     }
 }

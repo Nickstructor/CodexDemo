@@ -20,8 +20,11 @@ public class ConsoleMenu {
     public void run() {
         Scanner scanner = new Scanner(System.in);
         boolean running = true;
-        while (running && scanner.hasNextLine()) {
+        while (running) {
             System.out.println("1 Students  2 Sections  3 Register  4 Drop  5 Schedule  0 Exit");
+            if (!scanner.hasNextLine()) {
+                break;
+            }
             String choice = scanner.nextLine().trim();
             try {
                 switch (choice) {

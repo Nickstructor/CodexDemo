@@ -22,3 +22,4 @@ tests/RepositoryTest.java
 tests/SampleDataTest.java
 tests/ScheduleServiceTest.java
 tests/TestSupport.java
+tests/ConsoleMenuTest.java
